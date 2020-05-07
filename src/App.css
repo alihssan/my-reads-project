@@ -1,5 +1,7 @@
 html, body, .root {
   height: 100%;
+
+  
 }
 
 body {
@@ -7,7 +9,7 @@ body {
 }
 
 body, .app {
-  background: white;
+  background: black;
 }
 
 /* main page */
@@ -16,6 +18,8 @@ body, .app {
   padding: 10px 0;
   background: #2e7c31;
   text-align: center;
+  font-family: cursive;
+
 }
 
 .list-books-title h1 {
@@ -32,7 +36,14 @@ body, .app {
 .bookshelf {
   padding: 0 10px 20px;
 }
-
+.footer{
+  border: 0.1px solid #ccc;
+  width:100%;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+  background-color: #ccc;
+}
 @media (min-width: 600px) {
   .bookshelf {
     padding: 0 20px 40px;
@@ -41,6 +52,9 @@ body, .app {
 
 .bookshelf-title {
   border-bottom: 1px solid #dedede;
+  text-align:center;
+  margin-top:30px;
+  background-color:#ccc;
 }
 
 .bookshelf-books {
@@ -128,7 +142,7 @@ button:active {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -149,6 +163,7 @@ button:active {
 
 .book-title {
   margin-top: 10px;
+  color: white;
 }
 
 .book-authors {
@@ -190,9 +205,19 @@ button:active {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   background: #eee;
 }
-
+.book-image {
+  width:128px;
+  height: 193px;
+  
+}
 .book-cover-title {
   padding: 20px 10px 0;
   text-align: center;
   font-size: 0.8em;
+}
+.no-result{
+  margin-top: 15%;
+  color: white;
+  font-size: 20px;
+  text-align: center;
 }
