@@ -31,7 +31,7 @@ class DisplayShelf extends Component{
                                             onChange={(event)=>update(book,event.target.value)}
                                             value={book.shelf ? book.shelf:"none"}
                                             >
-                                        <option name="none" value="none">Delete</option>
+                                        <option name="none" value="none">UnSelect</option>
                                         <option name="wanttoread" value="wantToRead">Want to Read</option>
                                         <option name="Currentlyreading" value="currentlyReading">Currently Reading</option>
                                         <option name="read" value="read">Read</option>

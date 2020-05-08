@@ -59,8 +59,10 @@ class BooksApp extends Component {
                 });
               });
         }
+      
     
   }
+  
   Clear=()=>{
     /*This function is used to clear query and search results */
     this.setState({

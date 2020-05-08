@@ -15,7 +15,7 @@ class SearchPage extends Component{
           </div>
         </div>
         <div className="search-books-results">
-          <SearchResults state={this.props.state} update={this.props.update} query={query} />
+          <SearchResults state={this.props.state} update={this.props.update} query={query} check={this.props.check}/>
         </div>
       </div>
     );
